@@ -1,0 +1,6 @@
+*.retry
+.ansible/
+*.key
+id_ed25519
+id_rsa
+*.pem
