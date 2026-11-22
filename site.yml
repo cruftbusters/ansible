@@ -1,0 +1,7 @@
+---
+- name: No-op connectivity check against diamond
+  hosts: servers
+  gather_facts: false
+  tasks:
+    - name: Ping diamond
+      ansible.builtin.ping:
